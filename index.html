@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+		<title>Avaliação Ginecológica e Obstétrica</title>
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link rel="stylesheet" href="css/prism.css">
+
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/prism.js"></script>
+	</head>
+	<body>
+		<nav class="light-blue lighten-1" role="navigation">
+			<div class="nav-wrapper container">
+				<a id="logo-container" href="index.html" class="brand-logo"><i class="material-icons">pregnant_woman</i>AGB</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html" class="white-text">Home</a></li>
+					<li><a href="http://www.ufjf.br/nates/files/2009/12/prontuario.pdf" class="white-text">Artigo</a></li>
+				</ul>
+				<ul id="nav-mobile" class="side-nav">
+					<li><a href="http://www.ufjf.br/nates/files/2009/12/prontuario.pdf" class="white-text">Artigo</a></li>
+				</ul>
+				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+		<div class="section no-pad-bot" id="index-banner">
+			<div class="container">
+				<br><br>
+				<h1 class="header center light-blue-text">Avaliação ginecológica e obstétrica</h1>
+				<div class="row center">
+					<h5 class="header col s12 light"> Preencha seu próprio formulário e exporte-o como um arquivo xml ou json.</h5>
+				</div>
+			</div>
+		</div>
+	</body>
+	<body>
+		<div class="grey lighten-5 col s12 row">
+			<div class="container">
+				<div class="col s12">
+					<div class="row">
+						<br><br>
+						<div class="input-field col s12">
+							<input id="inidade" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="inidade" class="blue-text">Qual idade em que teve a primeira menstruação?</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="ingrav" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="ingrav" class="blue-text">Já ficou grávida?</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="ingravqnt" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="ingravqnt" class="blue-text">Quantas vezes?</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="inabt" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="inabt" class="blue-text">Já teve aborto?</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="inabtqnt" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="inabtqnt" class="blue-text">Quantas vezes?</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="inant" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="inant" class="blue-text">Usa algum método anticoncepcional?</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="inqualant" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="inqualant" class="blue-text">Qual? (Oral, DIU, Diafragma, Tabelinha, Camisinha, Outro)</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="inpapa" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="inpapa" class="blue-text">Fez o exame de papanicolau?</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="indatapapa" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="indatapapa" class="blue-text">Data (ou ano) do último</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="inrespapa" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="inrespapa" class="blue-text">Resultado (normal ou anormal)</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="indescpapa" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="indescpapa" class="blue-text">Descrição</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="inmamo" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="inmamo" class="blue-text">Já foi submetida a mamografia?</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="indatamamo" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="indatamamo" class="blue-text">Data do último exame</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="inresmamo" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="inresmamo" class="blue-text">Resultado (normal ou anormal)</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="indescmamo" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="indescmamo" class="blue-text">Descrição</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="inrube" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="inrube" class="blue-text">Teve rubéola?</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="intoxo" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="intoxo" class="blue-text">Teve toxoplasmose?</label>
+						</div>
+						<div class="input-field col s12">
+							<input id="inoutr" type="text" class="validate" style="border-bottom: 1px solid #03a9f4">
+							<label for="inoutr" class="blue-text">Outras informações dignas de nota:</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+		function gerarxml() {
+			var idade = $("#inidade").val();
+			var grav = $("#ingrav").val();
+			var gravqnt = $("#ingravqnt").val();
+			var abt = $("#inabt").val();
+			var abtqnt = $("#inabtqnt").val();
+			var ant = $("#inant").val();
+			var qualant = $("#inqualant").val();
+			var papa = $("#inpapa").val();
+			var datapapa = $("#indatapapa").val();
+			var respapa = $("#inrespapa").val();
+			var descpapa = $("#indescpapa").val();
+			var mamo = $("#inmamo").val();
+			var datamamo = $("#indatamamo").val();
+			var resmamo = $("#inresmamo").val();
+			var descmamo = $("#indescmamo").val();
+			var rube = $("#inrube").val();
+			var toxo = $("#intoxo").val();
+			var outr = $("#inoutr").val();
+			
+			var $root = $('<XMLDocument />');
+			
+			$root.append(
+				$('<avaliacao />').append(
+					$('<ginecologica />').append(
+						$('<idadeprimeiramenstruacao />').text(idade),
+						$('<jaficougravida />').text(grav),
+						$('<quantasvezesjaficougravida />').text(gravqnt),
+						$('<jateveaborto />').text(abt),
+						$('<quantasvezesjateveaborto />').text(abtqnt),
+						$('<usaanticoncepcional />').text(ant),
+						$('<qualanticoncepcional />').text(qualant),
+						$('<fezoexamepapanicolau />').text(papa),
+						$('<dataexamepapanicolau />').text(datapapa),
+						$('<resultadoexamepapanicolau />').text(respapa),
+						$('<descricaoexamepapanicolau />').text(descpapa),
+						$('<jafezmamografia />').text(mamo),
+						$('<datamamografia />').text(datamamo),
+						$('<resultadomamografia />').text(resmamo),
+						$('<descricaomamografia />').text(descmamo),
+						$('<teverubeola />').text(rube),
+						$('<tevetaxoplasmose />').text(toxo),
+						$('<outrasinformacoes />').text(outr),
+					)
+				)
+			);
+			$('#xml').text($root.html());
+		}
+		function gerarjson() {
+			var idade = $("#inidade").val();
+			var grav = $("#ingrav").val();
+			var gravqnt = $("#ingravqnt").val();
+			var abt = $("#inabt").val();
+			var abtqnt = $("#inabtqnt").val();
+			var ant = $("#inant").val();
+			var qualant = $("#inqualant").val();
+			var papa = $("#inpapa").val();
+			var datapapa = $("#indatapapa").val();
+			var respapa = $("#inrespapa").val();
+			var descpapa = $("#indescpapa").val();
+			var mamo = $("#inmamo").val();
+			var datamamo = $("#indatamamo").val();
+			var resmamo = $("#inresmamo").val();
+			var descmamo = $("#indescmamo").val();
+			var rube = $("#inrube").val();
+			var toxo = $("#intoxo").val();
+			var outr = $("#inoutr").val();
+			
+			var resp = '{ "idadeprimeiramenstruacao" : "'+idade+'", "jaficougravida" : "'+grav+'", "quantasvezesjaficougravida" : "'+gravqnt+'","jateveaborto" : "'+abt+'","quantasvezesjateveaborto" : "'+abtqnt+'","usaanticoncepcional" : "'+ant+'","qualanticoncepcional" : "'+qualant+'","fezoexamepapanicolau" : "'+papa+'","dataexamepapanicolau" : "'+datapapa+'","resultadoexamepapanicolau" : "'+respapa+'","descricaoexamepapanicolau" : "'+descpapa+'","jafezmamografia" : "'+mamo+'","datamamografia" : "'+datamamo+'","resultadomamografia" : "'+resmamo+'","descricaomamografia" : "'+descmamo+'","teverubeola" : "'+rube+'","tevetaxoplasmose" : "'+toxo+'","outrasinformacoes" : "'+outr+'",}';
+			$('#json').text(resp);
+
+		}
+		</script>
+		<div class="white col s12 row">
+			<div class="container">
+				<div class="col s6">
+					<div class="row">
+						<br><br>
+						<a class="waves-effect waves-light btn blue" onclick="gerarxml()">Gerar XML</a>
+					</div>
+				</div>
+				<div class="col s6">
+					<div class="row">
+						<br><br>
+						<a class="waves-effect waves-light btn blue right" onclick="gerarjson()">Gerar JSON</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="white col s12 row">
+			<div class="container">
+				<div class="col s6">
+					<div class="row">
+						<div class="col s12">
+							<br><br>
+							<h4 class="header center light-blue-text">XML</h4>
+							<pre>
+								<code class="language-markup line-numbers" id="xml">
+								Ao clicar em "Gerar xml" seu xml será gerado aqui.
+								</code>
+							</pre>
+						</div>
+					</div>
+				</div>
+				<div class="col s6">
+					<div class="row">
+						<div class="col s12">
+							<br><br>
+							<h4 class="header center light-blue-text">JSON</h4>
+							<pre>
+								<code class="language-markup line-numbers" id="json">
+								Ao clicar em "Gerar json" seu json será gerado aqui.
+								</code>
+							</pre>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="page-footer light-blue">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Sobre</h5>
+						<p class="grey-text text-lighten-4">Na página 22 do artigo mencionado ao lado 
+						há um modelo de avaliação ginecológica obstétrica que foi reproduzido neste 
+						site para possibilitar a exportação como documento xml ou json.</p>
+					</div>
+					<div class="col l6 s12">
+						<h5 class="white-text">Referêncial Teórico</h5>
+						<ul>
+							<li><a href="http://www.ufjf.br/nates/files/2009/12/prontuario.pdf	" class="white-text">Negreiros, Marcelus Motta, and José Tavares-Neto. "Proposta de Prontuário para as equipes de saúde da família." Revista APS 8.2 (2005): 123-142.</a></li>
+						</ul>
+					</div>
+					
+					
+					
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					Desenvolvido por Carlos, Dennis, Rafaela e Thais.
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
